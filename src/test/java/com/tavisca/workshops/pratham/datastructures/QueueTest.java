@@ -72,15 +72,12 @@ class QueueTest {
         for (int v: insertionLot1) {
             b.add(v);
         }
-
         for (int i = 0; i < 3; i++) {
             assertEquals(b.remove(), insertionLot1[i]);
         }
-
         for (int v: insertionLot2) {
             b.add(v);
         }
-
     }
 
     @Test
